@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "ES2020",
+		"lib": ["ES2020", "DOM"],
+		"strict": true,
+		"module": "none",
+		"outFile": "./dist/fast-fill.js",
+		"rootDir": "./src",
+		"removeComments": false,
+		"sourceMap": false,
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true,
+		"noEmitOnError": true,
+		"alwaysStrict": false
+	},
+	"include": ["src/fast-fill.ts"]
+}

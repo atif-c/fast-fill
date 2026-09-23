@@ -1,0 +1,30 @@
+{
+	"name": "fast-fill",
+	"version": "0.0.1",
+	"description": "Fast text fill (Ctrl + Shift + Space)",
+	"author": "Atif C <atifcdev@gmail.com>",
+	"license": "Unlicense",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/atif-c/fast-fill.git"
+	},
+	"scripts": {
+		"prettier:check": "prettier --check .",
+		"prettier:write": "prettier --write .",
+		"eslint:check": "eslint .",
+		"eslint:fix": "eslint --fix .",
+		"format": "prettier --write . && eslint --fix .",
+		"build": "tsc",
+		"check": "tsc --noEmit"
+	},
+	"devDependencies": {
+		"@eslint/js": "^10.0.1",
+		"eslint": "^10.11.0",
+		"globals": "^17.12.0",
+		"jiti": "^2.7.0",
+		"prettier": "^3.9.8",
+		"prettier-plugin-jsdoc": "^1.8.1",
+		"typescript": "^5.9.3",
+		"typescript-eslint": "^8.70.1"
+	}
+}
